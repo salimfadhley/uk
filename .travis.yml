@@ -4,8 +4,9 @@ python:
   - "2.7"
 
 install:
- - setup.sh
- - hyde_compile.sh
+ - ./setup.sh
+ - ./hyde_compile.sh
 
 script:
  - "nosetests pythonjobs_tests"
+
