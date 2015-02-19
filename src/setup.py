@@ -4,7 +4,7 @@ import os
 
 PROJECT_ROOT, _ = os.path.split(__file__)
 REVISION = '0.0.1'
-PROJECT_NAME = 'pythonjob'
+PROJECT_NAME = 'pythonjobs'
 PROJECT_AUTHORS = ""
 PROJECT_EMAILS = ''
 PROJECT_URL = ""
@@ -20,10 +20,10 @@ setup(
     version=REVISION,
     author=PROJECT_AUTHORS,
     author_email=PROJECT_EMAILS,
-    packages=['pythonjob', 'pythonjob_tests'],
+    packages=['pythonjobs', 'pythonjobs_tests'],
     zip_safe=True,
     include_package_data=False,
-    install_requires=['jekyll'],
+    install_requires=['hyde'],
     test_suite='nose.collector',
     tests_require=[],
     url=PROJECT_URL,
